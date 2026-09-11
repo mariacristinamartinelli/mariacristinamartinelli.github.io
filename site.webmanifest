@@ -1,0 +1,15 @@
+{
+  "name": "Maria Cristina Martinelli",
+  "short_name": "MCM",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f2eb",
+  "theme_color": "#4b2439",
+  "icons": [
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

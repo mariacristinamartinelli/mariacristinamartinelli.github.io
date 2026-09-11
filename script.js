@@ -1,4 +1,21 @@
 
+const pageMeta = {
+  it: {
+    title: "Maria Cristina Martinelli | Editor, Proofreader, Fact-checker & Traduttrice",
+    description: "Maria Cristina Martinelli: editor, proofreader, fact-checker e traduttrice EN/FR > IT. Esperienza pluridecennale nel lavoro linguistico ed editoriale."
+  },
+  en: {
+    title: "Maria Cristina Martinelli | Editor, Proofreader, Fact-checker & Translator",
+    description: "Maria Cristina Martinelli: editor, proofreader, fact-checker and EN/FR > IT translator with extensive experience in language and editorial work."
+  }
+};
+function updateMeta(lang){
+  document.title = pageMeta[lang].title;
+  const meta = document.querySelector('meta[name="description"]');
+  if(meta) meta.setAttribute("content", pageMeta[lang].description);
+}
+
+
 const translations = {
   it: {
     nav_services:"Servizi", nav_method:"Metodo", nav_experience:"Esperienza", nav_writing:"Scrittura", nav_project:"Progetto", nav_contact:"Contatti",
@@ -66,6 +83,7 @@ function setLang(lang){
   });
   document.querySelectorAll(".lang-btn").forEach(btn => btn.classList.toggle("active", btn.dataset.lang === lang));
   localStorage.setItem("preferredLang", lang);
+  updateMeta(lang);
 }
 
 document.querySelectorAll(".lang-btn").forEach(btn => {

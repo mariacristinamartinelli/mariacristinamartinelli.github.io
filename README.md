@@ -1,26 +1,26 @@
 # Sito personale — Maria Cristina Martinelli
 
-Versione statica pronta per GitHub Pages.
+Versione ottimizzata per GitHub Pages.
 
-## File
-- `index.html` — pagina principale
-- `styles.css` — stile e layout responsive
-- `script.js` — switch IT/EN e menu mobile
+## URL pubblico
+https://mariacristinamartinelli.github.io/
 
-## Pubblicazione su GitHub Pages
-1. Crea un account GitHub (se non ne hai già uno).
-2. Crea un nuovo repository chiamato esattamente `TUONOMEUTENTE.github.io`.
-3. Carica nella root del repository i tre file: `index.html`, `styles.css`, `script.js`.
-4. Apri **Settings → Pages**.
-5. In "Build and deployment", seleziona **Deploy from a branch**.
-6. Scegli branch `main` e cartella `/ (root)`.
-7. Salva. Dopo pochi minuti il sito sarà disponibile su:
-   `https://TUONOMEUTENTE.github.io`
+## Ottimizzazioni incluse
+- SEO di base: title, description, canonical, robots e sitemap
+- anteprima social Open Graph / Twitter
+- favicon e icona per dispositivi Apple
+- dati strutturati Schema.org Person
+- migliore accessibilità: skip link, focus visibile, supporto reduced motion
+- metadata IT/EN aggiornati con lo switch lingua
+- pagina 404 con ritorno alla home
 
-## Prima della pubblicazione
-- Sono presenti due indirizzi email pubblici: mariacristinamartinelli65@gmail.com e mcm65freelancer@gmail.com.
-- Se vuoi, aggiungi poi il link LinkedIn nella sezione Contatti.
-- Quando avrai un dominio personale, potrà essere collegato a GitHub Pages senza rifare il sito.
+## Aggiornamento su GitHub
+Nel repository `mariacristinamartinelli.github.io`:
+1. **Add file → Upload files**
+2. Trascina nella root tutti i file estratti da questo pacchetto.
+3. I file già presenti verranno aggiornati; i nuovi verranno aggiunti.
+4. Inserisci un messaggio come `Ottimizzazione sito v0.3`.
+5. Premi **Commit changes**.
+6. Attendi qualche minuto e ricarica il sito.
 
-## Nota
-Il sito non usa framework né dipendenze tecniche complesse. Carica solo i font da Google Fonts.
+Non caricare lo ZIP: carica i file estratti.

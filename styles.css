@@ -355,3 +355,22 @@ footer span:last-child{text-align:right}
   .mug{transform:scale(.78);transform-origin:top right}
   .footer-role{line-height:1.6}
 }
+
+
+/* Accessibility and production polish */
+.skip-link{
+  position:fixed; left:16px; top:-80px; z-index:999;
+  background:var(--plum); color:white; padding:10px 14px;
+  text-decoration:none; border-radius:3px; transition:top .2s ease;
+}
+.skip-link:focus{top:16px}
+a:focus-visible,button:focus-visible{outline:2px solid var(--plum-2);outline-offset:4px}
+::selection{background:rgba(75,36,57,.18)}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{
+    animation-duration:.01ms !important;
+    animation-iteration-count:1 !important;
+    transition-duration:.01ms !important;
+  }
+}
