@@ -39,3 +39,7 @@ La versione francese comprende navigazione, presentazione, servizi, metodo, espe
 ## Versione v0.6 — correzione switch FR
 Correzione di cache: `index.html` richiama ora `script.js?v=6` e `styles.css?v=6`.
 Questo forza i browser a scaricare il nuovo JavaScript contenente la traduzione francese, evitando che venga riutilizzata la versione precedente in cache.
+
+
+## Versione v0.7 — correzione francese
+Sostituito «Je développe…» con «Je suis en train de développer…» nella sezione relativa al progetto digitale.

@@ -98,7 +98,7 @@ const translations = {
     writing_kicker:"ÉCRITURE", writing_title:"Aussi de l’autre côté du manuscrit.",
     writing_body:"Je suis autrice publiée de thrillers psychologiques et je travaille sur des séries relevant du mystery et du paranormal urban gothic.",
     project_kicker:"PROJET NUMÉRIQUE", project_title:"L’expérience professionnelle transformée en projet.",
-    project_body:"Je développe une application multiplateforme conçue comme un environnement de travail intégré pour les professionnels de la langue et du texte, née d’une expérience directe des workflows éditoriaux et linguistiques.",
+    project_body:"Je suis en train de développer une application multiplateforme conçue comme un environnement de travail intégré pour les professionnels de la langue et du texte, née d’une expérience directe des workflows éditoriaux et linguistiques.",
     contact_kicker:"CONTACT", contact_title:"Parlons de votre prochain texte.", email_label:"E-mail", email_work_label:"E-mail professionnel",
     footer_tagline:"Textes. Personnes. Possibilités."
   }
