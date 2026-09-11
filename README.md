@@ -43,3 +43,9 @@ Questo forza i browser a scaricare il nuovo JavaScript contenente la traduzione 
 
 ## Versione v0.7 — correzione francese
 Sostituito «Je développe…» con «Je suis en train de développer…» nella sezione relativa al progetto digitale.
+
+## Versione v0.8 — correzione footer multilingue
+La qualifica nella barra inferiore ora cambia correttamente con la lingua selezionata:
+- IT: EDITOR · PROOFREADER · FACT-CHECKER · TRADUTTRICE
+- EN: EDITOR · PROOFREADER · FACT-CHECKER · TRANSLATOR
+- FR: RÉVISION ÉDITORIALE · CORRECTION · FACT-CHECKING · TRADUCTRICE

@@ -46,7 +46,7 @@ const translations = {
     project_kicker:"PROGETTO DIGITALE", project_title:"Esperienza professionale trasformata in progetto.",
     project_body:"Sto sviluppando un’applicazione multipiattaforma concepita come ambiente di lavoro integrato per professionisti della lingua e del testo, nata dall’esperienza diretta nei workflow editoriali e linguistici.",
     contact_kicker:"CONTATTI", contact_title:"Parliamo del tuo prossimo testo.", email_label:"Email",
-    footer_tagline:"Testi. Persone. Possibilità."
+    footer_role:"EDITOR · PROOFREADER · FACT-CHECKER · TRADUTTRICE", footer_tagline:"Testi. Persone. Possibilità."
   },
   en: {
     nav_services:"Services", nav_method:"Method", nav_experience:"Experience", nav_writing:"Writing", nav_project:"Project", nav_contact:"Contact",
@@ -73,7 +73,7 @@ const translations = {
     project_kicker:"DIGITAL PROJECT", project_title:"Professional experience turned into a project.",
     project_body:"I am developing a cross-platform application conceived as an integrated workspace for language and text professionals, built on direct experience of editorial and linguistic workflows.",
     contact_kicker:"CONTACT", contact_title:"Let’s talk about your next text.", email_label:"Email",
-    footer_tagline:"Texts. People. Possibilities."
+    footer_role:"EDITOR · PROOFREADER · FACT-CHECKER · TRANSLATOR", footer_tagline:"Texts. People. Possibilities."
   },
   fr: {
     nav_services:"Services", nav_method:"Méthode", nav_experience:"Expérience", nav_writing:"Écriture", nav_project:"Projet", nav_contact:"Contact",
@@ -100,7 +100,7 @@ const translations = {
     project_kicker:"PROJET NUMÉRIQUE", project_title:"L’expérience professionnelle transformée en projet.",
     project_body:"Je suis en train de développer une application multiplateforme conçue comme un environnement de travail intégré pour les professionnels de la langue et du texte, née d’une expérience directe des workflows éditoriaux et linguistiques.",
     contact_kicker:"CONTACT", contact_title:"Parlons de votre prochain texte.", email_label:"E-mail", email_work_label:"E-mail professionnel",
-    footer_tagline:"Textes. Personnes. Possibilités."
+    footer_role:"RÉVISION ÉDITORIALE · CORRECTION · FACT-CHECKING · TRADUCTRICE", footer_tagline:"Textes. Personnes. Possibilités."
   }
 };
 
