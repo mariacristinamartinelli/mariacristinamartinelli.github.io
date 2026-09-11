@@ -22,7 +22,7 @@ function updateMeta(lang){
 
 const translations = {
   it: {
-    nav_services:"Servizi", nav_method:"Metodo", nav_experience:"Esperienza", nav_writing:"Scrittura", nav_project:"Progetto", nav_contact:"Contatti",
+    nav_services:"Servizi", nav_method:"Metodo", nav_experience:"Esperienza", nav_writing:"Scrittura", nav_project:"Progetto", nav_blog:"Blog", nav_contact:"Contatti",
     hero_kicker:"TESTI PIÙ FORTI. STORIE PIÙ LUCIDE.",
     hero_role:"Editor · Proofreader · Fact-checker · Traduttrice",
     hero_langs:"Dall’inglese e dal francese all’italiano",
@@ -49,7 +49,7 @@ const translations = {
     footer_role:"EDITOR · PROOFREADER · FACT-CHECKER · TRADUTTRICE", footer_tagline:"Testi. Persone. Possibilità."
   },
   en: {
-    nav_services:"Services", nav_method:"Method", nav_experience:"Experience", nav_writing:"Writing", nav_project:"Project", nav_contact:"Contact",
+    nav_services:"Services", nav_method:"Method", nav_experience:"Experience", nav_writing:"Writing", nav_project:"Project", nav_blog:"Blog", nav_contact:"Contact",
     hero_kicker:"STRONGER TEXTS. CLEARER STORIES.",
     hero_role:"Editor · Proofreader · Fact-checker · Translator",
     hero_langs:"English and French into Italian",
@@ -76,7 +76,7 @@ const translations = {
     footer_role:"EDITOR · PROOFREADER · FACT-CHECKER · TRANSLATOR", footer_tagline:"Texts. People. Possibilities."
   },
   fr: {
-    nav_services:"Services", nav_method:"Méthode", nav_experience:"Expérience", nav_writing:"Écriture", nav_project:"Projet", nav_contact:"Contact",
+    nav_services:"Services", nav_method:"Méthode", nav_experience:"Expérience", nav_writing:"Écriture", nav_project:"Projet", nav_blog:"Blog", nav_contact:"Contact",
     hero_kicker:"DES TEXTES PLUS FORTS. DES HISTOIRES PLUS CLAIRES.",
     hero_role:"Révision éditoriale · Correction · Fact-checking · Traduction",
     hero_langs:"De l’anglais et du français vers l’italien",

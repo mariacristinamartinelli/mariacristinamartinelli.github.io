@@ -60,3 +60,16 @@ Miglioramenti leggeri senza modificare l'identità visiva approvata:
 - chiusura del menu mobile con il tasto Esc;
 - anno automatico nel footer;
 - compatibilità con `prefers-reduced-motion`.
+
+
+## Versione v1.0 — Blog integrato
+Aggiunta una sezione Blog direttamente nel sito GitHub Pages.
+
+Struttura:
+- `/blog/` — indice degli articoli
+- `/blog/fact-checking-editoriale/` — articolo dimostrativo trilingue IT/EN/FR
+
+Per pubblicare un nuovo articolo in futuro:
+1. aggiungere una nuova cartella in `/blog/`
+2. aggiungere la card del post in `/blog/index.html`
+3. aggiungere il nuovo URL in `sitemap.xml`
