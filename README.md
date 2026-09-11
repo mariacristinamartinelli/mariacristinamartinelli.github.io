@@ -49,3 +49,14 @@ La qualifica nella barra inferiore ora cambia correttamente con la lingua selezi
 - IT: EDITOR · PROOFREADER · FACT-CHECKER · TRADUTTRICE
 - EN: EDITOR · PROOFREADER · FACT-CHECKER · TRANSLATOR
 - FR: RÉVISION ÉDITORIALE · CORRECTION · FACT-CHECKING · TRADUCTRICE
+
+
+## Versione v0.9 — rifinitura di presentazione
+Miglioramenti leggeri senza modificare l'identità visiva approvata:
+- evidenziazione della sezione attiva nella navigazione;
+- ombra discreta della barra superiore durante lo scroll;
+- pulsante “torna su” dopo un certo scorrimento;
+- hover più raffinati su servizi e contatti;
+- chiusura del menu mobile con il tasto Esc;
+- anno automatico nel footer;
+- compatibilità con `prefers-reduced-motion`.

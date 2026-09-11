@@ -139,3 +139,44 @@ nav?.querySelectorAll("a").forEach(a => a.addEventListener("click", () => {
 }));
 
 setLang(localStorage.getItem("preferredLang") || "it");
+
+
+// v0.9 — navigation polish
+const header = document.querySelector(".site-header");
+const backToTop = document.querySelector(".back-to-top");
+const navLinks = [...document.querySelectorAll(".main-nav a")];
+const sections = navLinks
+  .map(link => document.querySelector(link.getAttribute("href")))
+  .filter(Boolean);
+
+function updateScrollState(){
+  const y = window.scrollY || document.documentElement.scrollTop;
+  header?.classList.toggle("scrolled", y > 10);
+  backToTop?.classList.toggle("visible", y > 500);
+
+  let currentId = "";
+  for (const section of sections){
+    const top = section.getBoundingClientRect().top;
+    if (top <= 140) currentId = section.id;
+  }
+  navLinks.forEach(link => {
+    const active = link.getAttribute("href") === `#${currentId}`;
+    link.classList.toggle("active", active);
+    if (active) link.setAttribute("aria-current","page");
+    else link.removeAttribute("aria-current");
+  });
+}
+
+window.addEventListener("scroll", updateScrollState, {passive:true});
+updateScrollState();
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && nav?.classList.contains("open")){
+    nav.classList.remove("open");
+    menuBtn?.setAttribute("aria-expanded","false");
+    menuBtn?.focus();
+  }
+});
+
+const yearEl = document.getElementById("footer-year");
+if (yearEl) yearEl.textContent = new Date().getFullYear();
