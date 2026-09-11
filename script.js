@@ -105,6 +105,7 @@ const translations = {
 };
 
 function setLang(lang){
+  if (!translations[lang]) lang = "it";
   document.documentElement.lang = lang;
   const switcher = document.querySelector(".lang-switch");
   if (switcher) {

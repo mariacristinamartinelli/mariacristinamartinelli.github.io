@@ -34,3 +34,8 @@ I riferimenti alle icone includono anche un parametro di versione (`?v=4`) per f
 ## Versione v0.5 — francese
 Aggiunta la terza lingua `FR` allo switch del sito.
 La versione francese comprende navigazione, presentazione, servizi, metodo, esperienza, scrittura, progetto digitale e contatti.
+
+
+## Versione v0.6 — correzione switch FR
+Correzione di cache: `index.html` richiama ora `script.js?v=6` e `styles.css?v=6`.
+Questo forza i browser a scaricare il nuovo JavaScript contenente la traduzione francese, evitando che venga riutilizzata la versione precedente in cache.
