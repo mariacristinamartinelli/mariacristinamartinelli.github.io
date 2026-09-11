@@ -477,3 +477,24 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--plum-2);outline-off
 .article-body blockquote{text-align:left;color:var(--plum);font-size:1.7rem;margin:32px 0;padding-left:20px;border-left:2px solid var(--plum)}
 .article-back{display:inline-block;margin-top:34px;color:var(--plum);text-decoration:none;font-weight:600}
 @media (max-width:900px){.blog-hero{grid-template-columns:1fr}.blog-note{text-align:left}.post-list{grid-template-columns:1fr}}
+
+
+/* v1.1 — CTA contatti a fine articolo */
+.article-cta{
+  margin-top:46px;
+  padding:24px 26px;
+  border:1px solid var(--line);
+  background:rgba(75,36,57,.035);
+}
+.article-cta p{
+  margin:0 0 8px;
+  font-family:"Cormorant Garamond",serif;
+  font-size:1.35rem;
+  color:var(--ink);
+}
+.article-cta a{
+  color:var(--plum);
+  font-weight:600;
+  text-decoration:none;
+}
+.article-cta a:hover{text-decoration:underline}

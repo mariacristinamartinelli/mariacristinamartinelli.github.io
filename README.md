@@ -73,3 +73,12 @@ Per pubblicare un nuovo articolo in futuro:
 1. aggiungere una nuova cartella in `/blog/`
 2. aggiungere la card del post in `/blog/index.html`
 3. aggiungere il nuovo URL in `sitemap.xml`
+
+
+## Versione v1.1 — invito al contatto sotto gli articoli
+Aggiunto, a fine articolo, un invito discreto e trilingue a scrivere via email:
+- IT: «Hai un’opinione o vuoi approfondire il tema?»
+- EN: «Have a thought to share or would you like to explore the topic further?»
+- FR: «Vous souhaitez partager un avis ou approfondir le sujet ?»
+
+L’indirizzo usato è `mcm65freelancer@gmail.com`.
