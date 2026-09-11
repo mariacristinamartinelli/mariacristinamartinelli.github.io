@@ -7,6 +7,10 @@ const pageMeta = {
   en: {
     title: "Maria Cristina Martinelli | Editor, Proofreader, Fact-checker & Translator",
     description: "Maria Cristina Martinelli: editor, proofreader, fact-checker and EN/FR > IT translator with extensive experience in language and editorial work."
+  },
+  fr: {
+    title: "Maria Cristina Martinelli | Révision éditoriale, correction, fact-checking & traduction",
+    description: "Maria Cristina Martinelli : révision éditoriale, correction, fact-checking et traduction EN/FR > IT, avec une longue expérience dans les métiers de la langue et de l’édition."
   }
 };
 function updateMeta(lang){
@@ -70,11 +74,43 @@ const translations = {
     project_body:"I am developing a cross-platform application conceived as an integrated workspace for language and text professionals, built on direct experience of editorial and linguistic workflows.",
     contact_kicker:"CONTACT", contact_title:"Let’s talk about your next text.", email_label:"Email",
     footer_tagline:"Texts. People. Possibilities."
+  },
+  fr: {
+    nav_services:"Services", nav_method:"Méthode", nav_experience:"Expérience", nav_writing:"Écriture", nav_project:"Projet", nav_contact:"Contact",
+    hero_kicker:"DES TEXTES PLUS FORTS. DES HISTOIRES PLUS CLAIRES.",
+    hero_role:"Révision éditoriale · Correction · Fact-checking · Traduction",
+    hero_langs:"De l’anglais et du français vers l’italien",
+    hero_lead:"Je travaille les textes pour leur apporter clarté, cohérence et authenticité, dans le respect de la voix de l’auteur et de l’expérience du lecteur.",
+    discover:"En savoir plus", contact_me:"Me contacter", hero_note:"Derrière chaque grande histoire<br>il y a un grand travail.",
+    service_editing:"Pour construire des textes solides, cohérents et captivants.",
+    service_proof:"Pour des textes précis, fluides et impeccables.",
+    service_fact:"Pour des informations fiables et des cadres crédibles.",
+    service_translation_title:"Traduction",
+    service_translation:"De l’anglais et du français vers l’italien, avec une attention particulière au ton, au style et au contexte.",
+    method_kicker:"MA MÉTHODE", method_title:"Précision, contexte, vision.",
+    method_body:"J’associe compétences linguistiques, attention éditoriale et vérification critique des informations dans une approche pratique et flexible. J’intègre les outils d’intelligence artificielle lorsqu’ils apportent une réelle valeur, mais l’évaluation finale reste toujours humaine.",
+    method_p1:"Respect de la voix de l’auteur", method_p2:"Fact-checking systématique", method_p3:"L’IA comme soutien, jamais comme substitut",
+    method_quote:"« Un bon texte n’est jamais seulement une affaire de mots. »",
+    stat_books:"livres révisés", stat_translated:"romans traduits",
+    experience_kicker:"EXPÉRIENCE", experience_title:"Une expérience éditoriale construite sur le terrain.",
+    experience_body:"Expérience en fiction contemporaine, thriller, mystery, fiction historique, romance, paranormal et autres genres. Une part importante des projets est couverte par des accords de confidentialité (NDA) ; les titres, auteurs et clients concernés ne peuvent donc pas être rendus publics.",
+    platforms:"Environnement de travail principal : macOS. Je travaille également sans difficulté sous Windows.",
+    writing_kicker:"ÉCRITURE", writing_title:"Aussi de l’autre côté du manuscrit.",
+    writing_body:"Je suis autrice publiée de thrillers psychologiques et je travaille sur des séries relevant du mystery et du paranormal urban gothic.",
+    project_kicker:"PROJET NUMÉRIQUE", project_title:"L’expérience professionnelle transformée en projet.",
+    project_body:"Je développe une application multiplateforme conçue comme un environnement de travail intégré pour les professionnels de la langue et du texte, née d’une expérience directe des workflows éditoriaux et linguistiques.",
+    contact_kicker:"CONTACT", contact_title:"Parlons de votre prochain texte.", email_label:"E-mail", email_work_label:"E-mail professionnel",
+    footer_tagline:"Textes. Personnes. Possibilités."
   }
 };
 
 function setLang(lang){
   document.documentElement.lang = lang;
+  const switcher = document.querySelector(".lang-switch");
+  if (switcher) {
+    const labels = {it:"Seleziona lingua", en:"Select language", fr:"Choisir la langue"};
+    switcher.setAttribute("aria-label", labels[lang] || labels.it);
+  }
   document.querySelectorAll("[data-i18n]").forEach(el => {
     const key = el.dataset.i18n;
     if(translations[lang][key] !== undefined){

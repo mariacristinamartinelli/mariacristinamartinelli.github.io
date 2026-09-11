@@ -29,3 +29,8 @@ Non caricare lo ZIP: carica i file estratti.
 ## Correzione favicon v0.4
 Aggiunto `favicon.ico` per massima compatibilità con Safari, Firefox e altri browser.
 I riferimenti alle icone includono anche un parametro di versione (`?v=4`) per forzare l'aggiornamento della cache del browser.
+
+
+## Versione v0.5 — francese
+Aggiunta la terza lingua `FR` allo switch del sito.
+La versione francese comprende navigazione, presentazione, servizi, metodo, esperienza, scrittura, progetto digitale e contatti.
